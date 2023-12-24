@@ -56,15 +56,62 @@ body{
     display: flex;
     flex-direction: column;
 }
-.humidity{
+.t{
+    font-size: 60px;
+    margin: auto;
+}
+.city{
+    margin: auto;
+    font-size: 40px;
+}
+.explain{
     display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.humid,.wind{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.wind{
+    width: 50%;
+}
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+
+}
+.d img{
+    width: 40%;
+}
+.wind img{
+    width: 30%;
 }
 .image{
     text-align: center;
     margin: 20px 0px;
 }
 
-.image img{
-    width: 70%;
-    height: 70%;
+.d span{
+    font-size: x-large;
 }
+#c{
+    margin: auto;
+    margin-top: 10px;
+
+}
+.weather{
+    display:none;
+
+}
+
+
